@@ -1,5 +1,5 @@
 {
-  "name": "Freecodecamp challenges",
+  "name": "freecodecamp-challenges",
   "version": "0.0.1",
   "repository": "https://github.com/OReillyCoursework/Freecodecampstuff.git",
   "author": "Ross O''Reilly",
@@ -11,6 +11,7 @@
   },
   "devDependencies": {
     "babel": "^6.5.2",
+    "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
     "faucet": "0.0.1",
