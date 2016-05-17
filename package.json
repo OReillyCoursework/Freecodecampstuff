@@ -5,7 +5,7 @@
   "author": "Ross O''Reilly",
   "dependencies": {},
   "scripts": {
-    "test": "babel-node ./test/index.js | faucet",
+    "test": "babel-tape-runner ./**/test.js",
     "cover": "babel-node node_modules/.bin/isparta cover --report text --report html ./test/*_tape.js",
     "build": "webpack"
   },
@@ -14,6 +14,8 @@
     "babel-cli": "^6.8.0",
     "babel-core": "^6.8.0",
     "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-tape-runner": "^2.0.1",
     "faucet": "0.0.1",
     "tape": "^4.5.1",
     "webpack": "^1.13.0"
