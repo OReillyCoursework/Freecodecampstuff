@@ -1,13 +1,20 @@
 {
-  "name": "chat-example",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
-  "main": "server.js",
-  "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
-  "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
+  "name": "Freecodecamp challenges",
+  "version": "0.0.1",
+  "repository": "https://github.com/OReillyCoursework/Freecodecampstuff.git",
+  "author": "Ross O''Reilly",
+  "dependencies": {},
+  "scripts": {
+    "test": "babel-node ./test/index.js | faucet",
+    "cover": "babel-node node_modules/.bin/isparta cover --report text --report html ./test/*_tape.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "faucet": "0.0.1",
+    "tape": "^4.5.1",
+    "webpack": "^1.13.0"
   }
 }
